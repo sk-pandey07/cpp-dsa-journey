@@ -6,15 +6,24 @@ int main(){
     cin >> n;
 
     if(n <= 1){
-        cout << "not prime";
+        cout << n << " isn't prime";
     }
+
+    bool isprime = true;
 
     for(int i=2; i<n; i++){
         if(n % i == 0){
-            cout << n << " isn't prime";
+            isprime = false;
+            break;
         }
     }
-    cout << n << " is prime";
+
+    if(isprime){
+        cout << n << " is prime";
+    }
+    else{
+        cout << n << " isn't prime";
+    }
 
     return 0;
 }
