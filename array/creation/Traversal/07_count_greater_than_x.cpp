@@ -9,7 +9,7 @@ int main(){
     int count = 0;
 
     for(int i=0; i<size; i++){
-        if(arr[i] > 15){
+        if(arr[i] > x){
             count++;
         }
     }
