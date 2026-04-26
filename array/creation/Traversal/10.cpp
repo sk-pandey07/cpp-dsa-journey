@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int size;
+    cout << "enter array size: ";
+    cin >> size;
+
+    int arr[size];
+    cout << "enter element: " << endl;
+    for(int i=0; i<size; i++){
+        cin >> arr[i];
+    }
+
+    int sum = 0;
+    for(int i=0; i<size; i++){
+        if(arr[i] > 0){
+            sum = sum + arr[i];
+        }
+    }
+    //int arr[] = {-2, 5, -1, 7, 3, -4};
+
+    cout << "sum of all positive number of array: " << sum;
+    return 0;
+}
