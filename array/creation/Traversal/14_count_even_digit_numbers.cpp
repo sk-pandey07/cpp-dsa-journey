@@ -9,6 +9,10 @@ int main(){
         int n = num[i];
         int digit = 0;
 
+        if(n == 0){
+            digit = 1;
+        }
+
         while(n != 0){
             digit++;
             n /= 10;
