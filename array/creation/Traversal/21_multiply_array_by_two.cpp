@@ -1,4 +1,4 @@
-// Print elements at even index
+// Multiply each element by 2
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,9 +6,12 @@ int main(){
     int size = 8;
 
     for(int i=0; i<size; i++){
-        if(i % 2 == 0){
-            cout << num[i] << " ";
-        }
+        num[i] = num[i] * 2;
+    }
+
+    cout << "updated array = ";
+    for(int i=0; i<size; i++){
+        cout << num[i] << " ";
     }
     return 0;
 }
