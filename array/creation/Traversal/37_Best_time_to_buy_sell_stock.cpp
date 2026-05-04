@@ -1,26 +1,21 @@
-#include<iostream>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
-    int prices[] = {7,1,5,3,6,4};
-    int size = 6;
+int main() {
+    vector<int> prices = {7, 1, 5, 3, 6, 4};
 
-    int minPrice = prices[0];
-    int maxProfit = 0;
+    int maxprofit = 0;
+    int bestbuy = prices[0];
 
-    for(int i = 1; i < size; i++){
-        if(prices[i] < minPrice){
-            minPrice = prices[i];
+    for (int i = 1; i < prices.size(); i++) {
+        if (prices[i] > bestbuy) {
+            maxprofit = max(maxprofit, prices[i] - bestbuy);
         }
-
-        int profit = prices[i] - minPrice;
-
-        if(profit > maxProfit){
-            maxProfit = profit;
-        }
+        bestbuy = min(prices[i], bestbuy);
     }
 
-    cout << "Maximum Profit = " << maxProfit;
+    cout << "Maximum Profit: " << maxprofit << endl;
 
     return 0;
 }
