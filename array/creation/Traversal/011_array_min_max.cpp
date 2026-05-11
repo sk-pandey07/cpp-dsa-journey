@@ -17,7 +17,6 @@ int main(){
 
     int smallest = marks[0];
     int greatest = marks[0];
-
     for(int i=0; i<size; i++){
         if(marks[i] < smallest){
             smallest = marks[i];
