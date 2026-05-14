@@ -9,7 +9,7 @@ int main(){
         i++;
     }
 
-    if(i == 0 && i == n-1){
+    if(i == 0 || i == n-1){
         cout << "false";
         return 0;
     }
