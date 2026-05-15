@@ -6,7 +6,7 @@ int main(){
     int n = arr.size();
     int maxindex = 0;
     for(int i=0; i<n; i++){
-        if(arr[i] << arr[maxindex]){
+        if(arr[i] > arr[maxindex]){
             maxindex = i;
         }
     }
