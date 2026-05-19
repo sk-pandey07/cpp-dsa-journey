@@ -16,7 +16,6 @@ int main(){
             decreasing = false;
         }
     }
-
     if(increasing || decreasing){
         cout << "true";
     }
