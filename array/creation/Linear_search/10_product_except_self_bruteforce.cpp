@@ -16,12 +16,10 @@ int main(){
         int product = 1;
 
         for(int j = 0; j < n; j++){
-
             if(i != j){
                 product *= nums[j];
             }
         }
-
         ans.push_back(product);
     }
     cout << "Answer: ";
