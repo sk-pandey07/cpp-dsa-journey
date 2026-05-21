@@ -24,11 +24,9 @@ int main(){
 
         ans.push_back(product);
     }
-
     cout << "Answer: ";
     for(int num : ans){
         cout << num << " ";
     }
-
     return 0;
 }
