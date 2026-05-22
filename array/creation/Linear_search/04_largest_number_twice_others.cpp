@@ -10,7 +10,6 @@ int main(){
             maxindex = i;
         }
     }
-
     bool valid = true;
     for(int i=0; i<n; i++){
         if(i != maxindex && arr[maxindex] < 2* arr[i]){
