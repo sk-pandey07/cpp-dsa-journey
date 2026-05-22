@@ -17,7 +17,6 @@ int main(){
             break;
         }
     }
-
     if(valid){
         cout << "index = " << maxindex;
     }
