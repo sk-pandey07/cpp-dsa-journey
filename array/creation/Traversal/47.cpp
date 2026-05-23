@@ -10,12 +10,9 @@ int main(){
     for(int i = 0; i < nums.size(); i++){
         ans.push_back(nums[i]);
     }
-
     cout << "Concatenated Array: ";
-
     for(int num : ans){
         cout << num << " ";
     }
-
     return 0;
 }
