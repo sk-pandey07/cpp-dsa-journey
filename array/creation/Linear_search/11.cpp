@@ -20,10 +20,7 @@ public:
             if(freq == 2){
 
                 bool alreadyAdded = false;
-
-                // avoid duplicate push
                 for(int x : ans){
-
                     if(x == nums[i]){
                         alreadyAdded = true;
                     }
