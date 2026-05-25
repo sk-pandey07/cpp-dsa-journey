@@ -17,8 +17,6 @@ public:
                     freq++;
                 }
             }
-
-            // duplicate found
             if(freq == 2){
 
                 bool alreadyAdded = false;
