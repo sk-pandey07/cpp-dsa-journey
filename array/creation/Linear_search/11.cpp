@@ -12,13 +12,11 @@ public:
 
             // count frequency
             for(int j = 0; j < n; j++){
-
                 if(nums[i] == nums[j]){
                     freq++;
                 }
             }
             if(freq == 2){
-
                 bool alreadyAdded = false;
                 for(int x : ans){
                     if(x == nums[i]){
