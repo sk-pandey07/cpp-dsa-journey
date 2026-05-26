@@ -23,11 +23,8 @@ int main(){
         }
 
         if(freq == 2){
-
             bool alreadyAdded = false;
-
             for(int x : ans){
-
                 if(x == nums[i]){
                     alreadyAdded = true;
                 }
