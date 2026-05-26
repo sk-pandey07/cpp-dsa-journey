@@ -41,10 +41,8 @@ int main(){
     }
 
     cout << "Duplicates: ";
-
     for(int num : ans){
         cout << num << " ";
     }
-
     return 0;
 }
