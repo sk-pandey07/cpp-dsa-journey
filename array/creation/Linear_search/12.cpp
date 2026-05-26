@@ -26,20 +26,17 @@ int main(){
 
             bool alreadyAdded = false;
 
-            // avoid duplicate push
             for(int x : ans){
 
                 if(x == nums[i]){
                     alreadyAdded = true;
                 }
             }
-
             if(!alreadyAdded){
                 ans.push_back(nums[i]);
             }
         }
     }
-
     cout << "Duplicates: ";
     for(int num : ans){
         cout << num << " ";
