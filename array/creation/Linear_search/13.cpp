@@ -18,14 +18,11 @@ int main(){
         for(int j = i; j < n; j++){
 
             sum += nums[j];
-
-            // check sum
             if(sum == k){
                 count++;
             }
         }
     }
-
     cout << "Total Subarrays = "
          << count;
 
