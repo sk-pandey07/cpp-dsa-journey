@@ -3,9 +3,7 @@
 #include<unordered_map>
 
 using namespace std;
-
 int main(){
-
     vector<int> nums = {1,1,1};
     int k = 2;
     unordered_map<int, int> mp;
