@@ -21,14 +21,9 @@ int main(){
     for(int i = 0; i < nums.size(); i++){
 
         prefixSum += nums[i];
-
-        // required sum exists
         if(mp.find(prefixSum - k) != mp.end()){
-
             count += mp[prefixSum - k];
         }
-
-        // store prefix sum
         mp[prefixSum]++;
     }
     cout << "Total Subarrays = "
