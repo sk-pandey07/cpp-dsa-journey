@@ -7,9 +7,7 @@ using namespace std;
 int main(){
 
     vector<int> nums = {1,1,1};
-
     int k = 2;
-
     unordered_map<int, int> mp;
     mp[0] = 1;
     int prefixSum = 0;
