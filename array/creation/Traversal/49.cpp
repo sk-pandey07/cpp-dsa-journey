@@ -15,7 +15,6 @@ int main(){
             second_largest = arr[i];
         }
     }
-    
     cout << "Second largest =" << second_largest;
     return 0;
 }
