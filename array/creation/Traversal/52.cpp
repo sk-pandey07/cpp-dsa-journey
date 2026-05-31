@@ -15,7 +15,6 @@ int main(){
             negative++;
         }
     }
-
     cout << "Positive number = " << positive << endl;
     cout << "Negative number = " << negative;
     return 0;
