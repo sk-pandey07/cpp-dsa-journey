@@ -2,7 +2,6 @@
 #include<vector>
 using namespace std;
 bool linearSearch(vector<int>& nums, int target){
-
     for(int num : nums){
         if(num == target){
             return true;
