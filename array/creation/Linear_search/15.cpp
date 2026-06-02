@@ -16,11 +16,8 @@ bool linearSearch(vector<int>& nums, int target){
 int main(){
 
     vector<int> nums = {100,4,200,1,3,2};
-
     int longest = 0;
-
     for(int i = 0; i < nums.size(); i++){
-
         int currentNum = nums[i];
         int count = 1;
         while(linearSearch(nums, currentNum + 1)){
