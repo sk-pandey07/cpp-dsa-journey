@@ -23,17 +23,12 @@ int main(){
 
         int currentNum = nums[i];
         int count = 1;
-
-        // search next consecutive numbers
         while(linearSearch(nums, currentNum + 1)){
-
             currentNum++;
             count++;
         }
-
         longest = max(longest, count);
     }
-
     cout << "Longest Consecutive Length = "
          << longest;
 
