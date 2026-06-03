@@ -13,15 +13,11 @@ int main(){
         int product = 1;
 
         for(int j = i; j < n; j++){
-
             product *= nums[j];
-
             maxProduct = max(maxProduct, product);
         }
     }
-
     cout << "Maximum Product = "
          << maxProduct;
-
     return 0;
 }
