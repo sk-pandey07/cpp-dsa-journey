@@ -23,12 +23,10 @@ int main() {
     int n = 3;
 
     sol.merge(nums1, m, nums2, n);
-
     cout << "Merged array: ";
     for (int num : nums1) {
         cout << num << " ";
     }
     cout << endl;
-
     return 0;
 }
