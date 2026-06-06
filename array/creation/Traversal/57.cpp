@@ -12,10 +12,8 @@ public:
         sort(nums1.begin(), nums1.end());
     }
 };
-
 int main() {
     Solution sol;
-
     vector<int> nums1 = {1, 2, 3, 0, 0, 0};
     int m = 3;
     vector<int> nums2 = {2, 5, 6};
