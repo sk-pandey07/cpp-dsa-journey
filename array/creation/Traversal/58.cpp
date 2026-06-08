@@ -17,11 +17,8 @@ int main(){
             nums[j] = nums[i];
         }
     }
-
     int k = j + 1;
-
     cout << "Unique Elements: ";
-
     for(int i = 0; i < k; i++){
         cout << nums[i] << " ";
     }
