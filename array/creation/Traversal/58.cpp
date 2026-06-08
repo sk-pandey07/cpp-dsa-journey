@@ -6,9 +6,7 @@ using namespace std;
 int main(){
 
     vector<int> nums = {1,1,2,2,3,4,4};
-
     int j = 0;
-
     for(int i = 1; i < nums.size(); i++){
         if(nums[i] != nums[j]){
             j++;
