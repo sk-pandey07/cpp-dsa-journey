@@ -5,7 +5,6 @@ int main(){
     int n = 5;
 
     int largest_element = arr[0];
-
     for(int i=0; i<n; i++){
         if(arr[i] > largest_element){
             largest_element = arr[i];
