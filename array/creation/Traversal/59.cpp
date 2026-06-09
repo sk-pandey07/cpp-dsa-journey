@@ -11,7 +11,6 @@ int main(){
             largest_element = arr[i];
         }
     }
-
     cout << "largest element = " << largest_element;
     return 0;
 }
