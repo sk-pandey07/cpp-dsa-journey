@@ -19,9 +19,7 @@ int main(){
             j++;
         }
     }
-
     cout << "Remaining Elements: ";
-
     for(int i = 0; i < j; i++){
         cout << nums[i] << " ";
     }
