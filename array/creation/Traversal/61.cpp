@@ -11,11 +11,9 @@ public:
                 return i;
             }
         }
-
         return nums.size();
     }
 };
-
 int main() {
     Solution sol;
     vector<int> nums = {1, 3, 5, 6};
