@@ -23,8 +23,6 @@ int main() {
     int target = 5;
 
     int result = sol.searchInsert(nums, target);
-
     cout << "Index: " << result << endl;
-
     return 0;
 }
