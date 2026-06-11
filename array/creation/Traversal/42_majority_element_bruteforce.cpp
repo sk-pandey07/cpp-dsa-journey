@@ -1,4 +1,4 @@
-// leetcode - 169 , majority element  using brute force - o(n^2)
+// leetcode - 169 , majority element  using brute force - o(n^2) 
 #include<iostream>
 #include<vector>
 using namespace std;
