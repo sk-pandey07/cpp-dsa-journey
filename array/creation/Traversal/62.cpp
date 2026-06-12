@@ -20,9 +20,7 @@ int main(){
             currSum = 0;
         }
     }
-
     cout << "Maximum Subarray Sum = "
          << maxSum;
-
     return 0;
 }
