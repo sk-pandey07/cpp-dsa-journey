@@ -1,8 +1,6 @@
 #include<iostream>
 #include<vector>
-
 using namespace std;
-
 int main(){
     vector<int> digits = {1,2,3};
     int n = digits.size();
