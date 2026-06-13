@@ -18,13 +18,10 @@ int main(){
             for(int digit : digits){
                 cout << digit << " ";
             }
-
             return 0;
         }
-
         digits[i] = 0;
     }
-
     digits.insert(digits.begin(), 1);
     for(int digit : digits){
         cout << digit << " ";
