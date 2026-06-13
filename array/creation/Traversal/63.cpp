@@ -26,10 +26,8 @@ int main(){
     }
 
     digits.insert(digits.begin(), 1);
-
     for(int digit : digits){
         cout << digit << " ";
     }
-
     return 0;
 }
