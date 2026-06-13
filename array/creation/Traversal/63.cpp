@@ -10,11 +10,8 @@ int main(){
     int n = digits.size();
 
     for(int i = n - 1; i >= 0; i--){
-
         if(digits[i] < 9){
-
             digits[i]++;
-
             for(int digit : digits){
                 cout << digit << " ";
             }
