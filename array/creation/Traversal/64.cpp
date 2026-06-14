@@ -15,11 +15,9 @@ public:
                 maxProfit = max(maxProfit, profit);
             }
         }
-
         return maxProfit;
     }
 };
-
 int main() {
     Solution obj;
     vector<int> prices = {7, 1, 5, 3, 6, 4};
