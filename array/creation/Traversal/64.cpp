@@ -22,10 +22,7 @@ public:
 
 int main() {
     Solution obj;
-
     vector<int> prices = {7, 1, 5, 3, 6, 4};
-
     cout << "Maximum Profit = " << obj.maxProfit(prices) << endl;
-
     return 0;
 }
