@@ -30,9 +30,7 @@ public:
 
 int main() {
     vector<int> nums = {4, 1, 2, 1, 2};
-
     Solution obj;
     cout << obj.singleNumber(nums) << endl;
-
     return 0;
 }
