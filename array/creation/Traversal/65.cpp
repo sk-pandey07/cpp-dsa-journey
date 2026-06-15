@@ -18,16 +18,13 @@ public:
                     freq++;
                 }
             }
-
             if(freq == 1) {
                 return nums[i];
             }
         }
-
         return -1;
     }
 };
-
 int main() {
     vector<int> nums = {4, 1, 2, 1, 2};
     Solution obj;
