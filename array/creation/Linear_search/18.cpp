@@ -28,12 +28,9 @@ public:
         return -1;
     }
 };
-
 int main() {
     vector<int> nums = {3, 0, 1};
-
     Solution obj;
     cout << obj.missingNumber(nums) << endl;
-
     return 0;
 }
