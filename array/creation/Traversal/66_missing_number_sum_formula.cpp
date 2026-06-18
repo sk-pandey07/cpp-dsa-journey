@@ -10,7 +10,7 @@ public:
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
 
-        for (int num : nums) {
+        for (int i = 0; i < nums.size(); i++) {
             actualSum += num;
         }
 
