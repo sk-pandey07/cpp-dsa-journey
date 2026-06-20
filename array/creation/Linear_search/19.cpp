@@ -16,21 +16,14 @@ int main(){
     int leftSum = 0;
 
     for(int i = 0; i < nums.size(); i++){
-
         int rightSum = totalSum - leftSum - nums[i];
-
         if(leftSum == rightSum){
-
             cout << "Pivot Index = "
                  << i;
-
             return 0;
         }
-
         leftSum += nums[i];
     }
-
     cout << -1;
-
     return 0;
 }
