@@ -20,12 +20,9 @@ public:
 int main() {
     Solution obj;
     vector<int> nums = {-4, -1, 0, 3, 10};
-
     vector<int> result = obj.sortedSquares(nums);
-
     for(int x : result) {
         cout << x << " ";
     }
-
     return 0;
 }
