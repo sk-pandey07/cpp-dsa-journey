@@ -26,19 +26,14 @@ int main(){
             left++;
         }
         else{
-
             ans[index] = rightSquare;
             right--;
         }
-
         index--;
     }
-
     cout << "Result: ";
-
     for(int num : ans){
         cout << num << " ";
     }
-
     return 0;
 }
