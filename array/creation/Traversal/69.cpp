@@ -22,10 +22,7 @@ public:
 
 int main() {
     Solution obj;
-
     vector<int> nums = {2, 2, 3, 1};
-
     cout << "Third Maximum: " << obj.thirdMax(nums) << endl;
-
     return 0;
 }
