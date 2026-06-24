@@ -32,19 +32,15 @@ int main(){
             third = second;
             second = num;
         }
-
         else if(num > third){
-
             third = num;
         }
     }
-
     if(third == LONG_MIN){
         cout << first;
     }
     else{
         cout << third;
     }
-
     return 0;
 }
