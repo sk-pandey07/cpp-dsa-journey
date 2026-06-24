@@ -21,14 +21,11 @@ int main(){
         }
 
         if(num > first){
-
             third = second;
             second = first;
             first = num;
         }
-
         else if(num > second){
-
             third = second;
             second = num;
         }
