@@ -11,15 +11,12 @@ int main(){
     long first = LONG_MIN;
     long second = LONG_MIN;
     long third = LONG_MIN;
-
     for(int num : nums){
-
         if(num == first ||
            num == second ||
            num == third){
             continue;
         }
-
         if(num > first){
             third = second;
             second = first;
