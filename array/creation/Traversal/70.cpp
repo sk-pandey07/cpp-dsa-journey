@@ -1,13 +1,9 @@
 #include<iostream>
 #include<vector>
 #include<climits>
-
 using namespace std;
-
 int main(){
-
     vector<int> nums = {2,2,3,1};
-
     long first = LONG_MIN;
     long second = LONG_MIN;
     long third = LONG_MIN;
