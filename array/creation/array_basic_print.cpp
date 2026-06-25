@@ -8,6 +8,5 @@ int main(){
     cout << marks[2] << endl;
     cout << marks[3] << endl;
     cout << marks[4] << endl;
-
     return 0;
 }
